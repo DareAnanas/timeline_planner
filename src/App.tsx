@@ -9,7 +9,7 @@ function App() {
       <main className="flex flex-col flex-1 overflow-hidden">
         {/* Top bar (Tools) */}
         <header className="h-14 bg-slate-900 border-b border-slate-700 flex items-center px-6 text-white gap-4">
-          <div className="font-bold text-sky-400">TIMELINE PLANNER</div>
+          <div className="font-bold text-sky-400">Timeline Planner</div>
           <div className="flex gap-2 ml-auto">
             <button className="px-3 py-1 bg-slate-700 rounded text-sm hover:bg-slate-600 transition">Ripple Mode</button>
             <button className="px-3 py-1 bg-slate-800 rounded text-sm hover:bg-slate-700 transition">Stack Mode</button>
@@ -18,6 +18,7 @@ function App() {
 
         {/* Timeline Area */}
         <Timeline />
+        <div>Just Normal Component</div>
       </main>
     </div>
   );
