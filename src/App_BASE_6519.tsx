@@ -18,7 +18,7 @@ function App() {
 
         {/* Timeline Area */}
         <Timeline />
-        <div>Component from main branch</div>
+        <div>Just Normal Component</div>
       </main>
     </div>
   );

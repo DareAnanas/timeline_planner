@@ -18,7 +18,11 @@ function App() {
 
         {/* Timeline Area */}
         <Timeline />
+<<<<<<< HEAD
         <div>Component from main branch</div>
+=======
+        <div>Component from develop branch</div>
+>>>>>>> develop
       </main>
     </div>
   );
